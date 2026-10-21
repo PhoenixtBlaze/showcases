@@ -13,7 +13,7 @@
       "mimeType": "model/gltf-binary",
       "name": "Sofa fabric",
       "path": "assets/sofa-fabric.glb",
-      "size": 799056,
+      "size": 799076,
       "type": "mesh"
     },
     {
@@ -21,7 +21,7 @@
       "mimeType": "model/gltf-binary",
       "name": "Sofa wood",
       "path": "assets/sofa-wood.glb",
-      "size": 378368,
+      "size": 378404,
       "type": "mesh"
     },
     {
