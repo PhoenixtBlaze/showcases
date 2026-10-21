@@ -18,6 +18,10 @@ OpenStreetMap footprints are not included.
 
 Kautilya wordmarks and project renders are not in this repository. The page uses a text lockup and does not ship a client logo or render.
 
-Lawns are flat colour so the ground reads as maintained landscape. `grass_ground.jpg` is still included and credited; it is not mapped onto the hero lawn.
+The visible sky is a warm dusk gradient generated in the page, used as the background and as a PMREM reflection for the glass. `belfast_sunset_puresky.jpg` ships with the export and is credited here. It is not mapped as the background: on this massing the equirect reads as a muddy purple.
+
+`rectangular_facade_tiles.jpg` is a dark window grid. Mapping it across the towers made them read as striped boxes, so the facades stay light panels plus physical glass. The file is still included and credited.
+
+Lawns and paths are flat colour so the ground reads as a maintained model landscape. `grass_ground.jpg` is still included and credited; it is not mapped onto the lawn.
 
 Fonts: Roboto and Roboto Slab, loaded from Google Fonts.
