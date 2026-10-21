@@ -31,6 +31,7 @@
     <p class="corner-label">Concept demo by Everburn Interactive for Incendio Woodworks, not affiliated</p>
 
     <aside class="panel" aria-label="Table configurator">
+      <button type="button" id="sheet-toggle" class="sheet-toggle" aria-expanded="false" aria-controls="config-options">Wood and finish</button>
       <div class="tabs" role="tablist" aria-label="Table type">
         <button type="button" data-table="dining" role="tab">Dining</button>
         <button type="button" data-table="poker" role="tab" aria-pressed="true">Poker</button>
@@ -38,6 +39,7 @@
       </div>
       <p class="table-kicker">Showing <span id="table-name">Poker</span></p>
 
+      <div id="config-options" class="options">
       <h2>Choose Your Wood</h2>
       <div class="swatches" role="group" aria-label="Choose Your Wood">
         <button type="button" data-wood="ash"><i class="chip ash"></i><span>Ash</span></button>
@@ -60,10 +62,11 @@
         <button type="button" id="led-toggle" class="led" aria-pressed="true">Integrated LED</button>
         <p class="hint">Tap the pad on the near rail for wireless charging.</p>
       </div>
+      <p class="cta-note">No veneers, no shortcuts. A fixed price before anything is cut. This demo does not send a form.</p>
+      </div>
 
       <p id="build-summary" class="summary" aria-live="polite">Walnut · Shou Sugi Ban · LED on</p>
       <a class="cta" href="https://everburninteractive.com/build/">Start Your Commission</a>
-      <p class="cta-note">No veneers, no shortcuts. A fixed price before anything is cut. This demo does not send a form.</p>
     </aside>
 
     <div id="hotspot-tip" class="tip" role="tooltip" hidden>
