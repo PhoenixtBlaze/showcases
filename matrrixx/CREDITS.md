@@ -6,16 +6,12 @@ The bat shapes are procedural geometry. No downloaded 3D model is included.
 
 ## Client assets
 
-The sticker crops and the Matrrixx logo are Matrrixx's own photographs and logo, used with reference to the client's website for this private concept demo. They are not relicensed.
+Sticker crops are derived from Matrrixx's own product photographs for this private concept demo. They are not relicensed. The Matrrixx logo is not used on this page.
 
 ## Type
 
-Orbitron, SIL Open Font License, shipped as a variable TTF. https://fonts.google.com/specimen/Orbitron
-
-Roboto is loaded from Google Fonts for body text. https://fonts.google.com/specimen/Roboto
-
-Ethnocentric was not copied into the site.
+Headings use the visitor's system UI fonts. No client brand font is shipped.
 
 ## Not included
 
-The reference photographs used to fit the bats stay out of this folder. There is no HDRI. Studio light is three lights in the page.
+Reference photographs used to fit the bats stay out of this folder. There is no HDRI and no client logo file.

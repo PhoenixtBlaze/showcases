@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
     <title>Matrrixx — High-quality bespoke English Willow cricket bats</title>
-    <link rel="icon" href="./assets/favicon.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" />
+    <style>
+      html, body { margin: 0; background: #000; color: #e7e7ed; }
+      .boot { min-height: 100vh; display: grid; place-items: center; font: 500 14px/1.4 system-ui, sans-serif; color: #d8d07d; }
+    </style>
     <script type="module" crossorigin src="./runtime.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/style.css">
   </head>
   <body>
-    <header class="hero">
-      <a class="logo-link" href="#top">
-        <img class="logo" src="./assets/logo-light.webp" alt="Matrrixx" />
-      </a>
+    <header class="hero" id="top">
+      <p class="brand">MATRRIXX</p>
       <canvas id="hero-canvas" aria-hidden="true"></canvas>
       <div class="hero-copy">
         <h1>High-quality bespoke English Willow cricket bats</h1>
@@ -25,6 +25,7 @@
           <a class="btn" href="#builder">Build your bat</a>
         </p>
       </div>
+      <p class="boot" id="hero-boot">Loading the bat…</p>
     </header>
     <p class="trust">Traditional Batmaking · Pure Customisation · 100% Authentic · Worldwide Shipping</p>
 
@@ -33,8 +34,14 @@
       <div class="range-layout">
         <div class="range-stage">
           <canvas id="range-canvas"></canvas>
-          <div class="range-hits" id="range-hits"></div>
+          <div class="range-picks" id="range-picks"></div>
         </div>
+        <aside class="range-copy" id="range-copy">
+          <h3>S-10</h3>
+          <ul></ul>
+          <p class="views"></p>
+          <p class="source">Source: matrrixx.com/bat-shapes.html</p>
+        </aside>
         <article class="custom-card">
           <h3>Custom</h3>
           <p>Custom: YOU SPECIFY IT Any Way You Want It AND WE'LL MAKE IT!</p>
@@ -47,7 +54,7 @@
     <section id="builder" class="band">
       <h2>Custom Bat Builder</h2>
       <p class="intro">Get your new bat customised according to your exact requirements to suit your game and optimise your personal batting potential.</p>
-      <div id="builder-root"></div>
+      <div id="builder-root"><p class="pending">Scroll here to open the builder.</p></div>
     </section>
 
     <section class="craft" aria-label="Craft">
