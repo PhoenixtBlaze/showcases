@@ -1,3 +1,8 @@
 # showcases
 
-Each folder is a client concept demo, built static output only, not affiliated with the named businesses.
+These concept demos now live on Everburn Interactive. This repository only redirects the old GitHub Pages addresses.
+
+- https://everburninteractive.com/showcases/incendio-woodworks/
+- https://everburninteractive.com/showcases/kautilya-two20/
+- https://everburninteractive.com/showcases/matrrixx/
+- https://everburninteractive.com/showcases/the-mistrys/
